@@ -1,3 +1,5 @@
+import Episode from "@/components/Episode";
+import Membership from "@/components/Membership";
 import ScrollBar from "@/components/ScrollBar";
 import Slider from "@/components/Slider";
 import Supported from "@/components/Supported";
@@ -6,7 +8,6 @@ import Image from "next/image";
 const Landing = () => {
   return (
     <div className="w-full relative">
-
       {/* Section 1 */}
       <section className="flex flex-col justify-center text-center bg-[#F7EDE8]">
         <div>
@@ -53,7 +54,7 @@ const Landing = () => {
 
       {/* Section 2 */}
       <section className="relative flex flex-col justify-center text-center items-center">
-        <div className="font-bold text-6xl mt-[170px]">
+        <div className="font-bold text-6xl mt-[140px]">
           Talk. Listen. Get inspired <br /> by every minute of it.
         </div>
         <div className="flex gap-56 mt-[100px]">
@@ -131,15 +132,105 @@ const Landing = () => {
         alt="navigation_1"
         width={50}
         height={50}
-        className="absolute top-[2675px] left-[50%]"
+        className="absolute top-[2640px] left-[50%]"
       />
 
       {/* section 3 */}
       <section className="flex flex-col text-center bg-[#EDF3F7]">
-            <div className="font-bold text-[59px] mt-[150px] ">What our listeners say</div>
-            <p className="font-medium text-[22px] mt-5 mb-[100px]">Their experience throughout every platform</p>
-            <Slider />
+        <div className="font-bold text-[59px] mt-[140px] ">
+          What our listeners say
+        </div>
+        <p className="font-medium text-[22px] mt-5 mb-[100px]">
+          Their experience throughout every platform
+        </p>
+        <Slider />
       </section>
+      {/* section 3 end */}
+
+      <Image
+        src="/images/pattern/navigation_1.png"
+        alt="navigation_1"
+        width={50}
+        height={50}
+        className="absolute top-[3585px] left-[50%]"
+      />
+
+      {/* section 4 */}
+      <section className="flex flex-col text-center">
+        <div className="relative font-bold text-[59px] mt-[140px]">
+          Membership benefits
+          <Image
+            src="/images/pattern/pattern_4.png"
+            alt="..."
+            width={240}
+            height={240}
+            className="absolute top-[-130px] right-[515px]"
+          />
+        </div>
+        <p className="font-medium text-[22px] mt-5 mb-[100px]">
+          Become our sponsor and get all benefits
+        </p>
+        <div className="grid grid-cols-3 mt-[80px]">
+          <Membership
+            image="/images/illustration/Scribble.png"
+            title="Topic by Request"
+            description="topic"
+          />
+          <Membership
+            image="/images/illustration/Shining_stars.png"
+            title="Exclusive Content"
+            description="content"
+          />
+          <Membership
+            image="/images/illustration/Face-1.png"
+            title="Join the Community"
+            description="community"
+          />
+          <Membership
+            image="/images/illustration/Face-5.png"
+            title="Livestreaming Access"
+            description="access"
+          />
+          <Membership
+            image="/images/illustration/Fire.png"
+            title="Exclusive Episodes & Merch"
+            description="exclusive"
+          />
+          <Membership
+            image="/images/illustration/Star.png"
+            title="And much more!"
+            description="more"
+          />
+        </div>
+        <div className="mt-10 mb-[130px]">
+          <button className="W-[170] h-62 font-bold text-white bg-black rounded-lg px-6 py-3 shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
+            SEE PRICING
+          </button>
+        </div>
+      </section>
+      {/* section 4 end */}
+
+      <Image
+        src="/images/pattern/navigation_1.png"
+        alt="navigation_1"
+        width={50}
+        height={50}
+        className="absolute top-[4825px] left-[50%]"
+      />
+
+      {/* section 5 */}
+      <section className="flex flex-col items-center bg-[#F7EDE8]">
+        <div className="relative font-bold text-[59px] mt-[140px]">
+          Recent Episodes
+        </div>
+        <p className="font-medium text-[22px] mt-5 mb-[100px]">
+          Available on your favorite platform
+        </p>
+        <div className="">
+          <Episode />
+        </div>
+      </section>
+      {/* section 5 end */}
     </div>
   );
 };
