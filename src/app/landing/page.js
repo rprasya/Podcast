@@ -1,4 +1,6 @@
+import Article from "@/components/Article";
 import Episode from "@/components/Episode";
+import Footer from "@/components/Footer";
 import Membership from "@/components/Membership";
 import ScrollBar from "@/components/ScrollBar";
 import Slider from "@/components/Slider";
@@ -203,7 +205,7 @@ const Landing = () => {
           />
         </div>
         <div className="mt-10 mb-[130px]">
-          <button className="W-[170] h-62 font-bold text-white bg-black rounded-lg px-6 py-3 shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
+          <button className="W-[170] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
             SEE PRICING
           </button>
         </div>
@@ -215,7 +217,7 @@ const Landing = () => {
         alt="navigation_1"
         width={50}
         height={50}
-        className="absolute top-[4825px] left-[50%]"
+        className="absolute top-[4840px] left-[50%]"
       />
 
       {/* section 5 */}
@@ -229,8 +231,269 @@ const Landing = () => {
         <div className="">
           <Episode />
         </div>
+        <div>
+          <button className="W-[253] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 mt-[100px] mb-[140px] hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
+            BROWSE ALL EPISODES
+          </button>
+        </div>
       </section>
       {/* section 5 end */}
+
+      <Image
+        src="/images/pattern/navigation_1.png"
+        alt="navigation_1"
+        width={50}
+        height={50}
+        className="absolute top-[6405px] left-[50%]"
+      />
+
+      {/* section 6 */}
+      <section className="relative flex flex-col items-center">
+        <div className="relative font-bold text-[59px] mt-[140px]">
+          Become Our Sponsor
+        </div>
+        <p className="font-medium text-[22px] mt-5 mb-[100px]">
+          Get exclusive episodes, merch and more
+        </p>
+        <Image
+          src="/images/pattern/Sparkle_1.png"
+          alt="sparkle"
+          width={120}
+          height={120}
+          className="absolute top-[90px] right-[65%]"
+        />
+        <Image
+          src="/images/pattern/Star.png"
+          alt="star"
+          width={150}
+          height={150}
+          className="absolute top-[320px] right-[15%]"
+        />
+        <Image
+          src="/images/pattern/pattern_3_blue.png"
+          alt="pattern_3_blue"
+          width={120}
+          height={120}
+          className="absolute top-[990px] left-[15%] "
+        />
+        <div className="flex gap-5 mb-[140px]">
+          {/* card 1 */}
+          <div className="group">
+            {/* box 1 */}
+            <div className="border-2 border-black rounded-lg pt-[60px] pb-[30px] px-10 mb-5 group-hover:bg-[#F7EDE8] ">
+              <div className="font-bold text-[36px] mb-5">Member</div>
+              <p>
+                Lorem ipsum dolor sit amet consectet <br /> cing elit, sed do
+                eiusmod tempor.
+              </p>
+              <div className="flex justify-between items-center mt-[80px]">
+                <button className="W-[160px] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
+                  SUBSCRIBE
+                </button>
+                <p className="font-bold text-[22px] text-[#CD4631]">
+                  $9.99 <br />
+                  <span className="text-base text-[#4D4D4D]">/month</span>
+                </p>
+              </div>
+            </div>
+            {/* box 2 */}
+            <div className="border-2 border-black rounded-lg p-10 group-hover:bg-[#F7EDE8]">
+              <p className="font-bold text-[#4D4D4D] mb-5">What’s included:</p>
+              <ul className="mb-[50px]">
+                <li className="mb-[10px]">• Exclusive Content</li>
+                <li className="mb-[10px]">• 5% Discount on Merch</li>
+                <li className="mb-[10px]">• Join the Community</li>
+                <li>• Livestreaming Access</li>
+              </ul>
+            </div>
+          </div>
+          {/* card 1 end */}
+
+          {/* card 2 */}
+          <div className="group">
+            {/* box 1 */}
+            <div className="border-2 border-black rounded-lg pt-[60px] pb-[30px] px-10 mb-5 group-hover:bg-[#F7EDE8] ">
+              <div className="flex justify-between items-center mb-5">
+                <div className="font-bold text-[36px]">Family</div>
+                <div className="font-bold text-sm text-white bg-[#CD4631] rounded-lg px-[6px] py-[3px]">
+                  MOST POPULAR
+                </div>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectet <br /> cing elit, sed do
+                eiusmod tempor.
+              </p>
+              <div className="flex justify-between items-center mt-[80px]">
+                <button className="W-[160px] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
+                  SUBSCRIBE
+                </button>
+                <p className="font-bold text-[22px] text-[#CD4631]">
+                  $14.99 <br />
+                  <span className="text-base text-[#4D4D4D]">/month</span>
+                </p>
+              </div>
+            </div>
+            {/* box 2 */}
+            <div className="border-2 border-black rounded-lg p-10 group-hover:bg-[#F7EDE8]">
+              <p className="font-bold text-[#4D4D4D] mb-5">What’s included:</p>
+              <ul className="mb-[16px]">
+                <li className="mb-[10px]">• Everything in Tier 1</li>
+                <li className="mb-[10px]">• Free tickets to Events</li>
+                <li className="mb-[10px]">• Limited Edition Merch</li>
+                <li className="mb-[10px]">• Promote your Product</li>
+                <li>• Request Topic</li>
+              </ul>
+            </div>
+          </div>
+          {/* card 2 end */}
+
+          {/* card 3 */}
+          <div className="group">
+            {/* box 1 */}
+            <div className="border-2 border-black rounded-lg pt-[60px] pb-[30px] px-10 mb-5 group-hover:bg-[#F7EDE8] ">
+              <div className="font-bold text-[36px] mb-5">Official</div>
+              <p>
+                Lorem ipsum dolor sit amet consectet <br /> cing elit, sed do
+                eiusmod tempor.
+              </p>
+              <div className="flex justify-between items-center mt-[80px]">
+                <button className="W-[160px] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
+                  SUBSCRIBE
+                </button>
+                <p className="font-bold text-[22px] text-[#CD4631]">
+                  $29.99 <br />
+                  <span className="text-base text-[#4D4D4D]">/month</span>
+                </p>
+              </div>
+            </div>
+            {/* box 2 */}
+            <div className="border-2 border-black rounded-lg p-10 group-hover:bg-[#F7EDE8]">
+              <p className="font-bold text-[#4D4D4D] mb-5">What’s included:</p>
+              <ul className="mb-[16px]">
+                <li className="mb-[10px]">• Everything in Tier 2</li>
+                <li className="mb-[10px]">
+                  • Exclusive Badge on Livestreaming
+                </li>
+                <li className="mb-[10px]">• Become an Official Sponsor</li>
+                <li className="mb-[10px]">• Early Access to All Episodes</li>
+                <li>• Free Stikers and Merch</li>
+              </ul>
+            </div>
+          </div>
+          {/* card 3 end */}
+        </div>
+      </section>
+      {/* section 6 end */}
+
+      <Image
+        src="/images/pattern/navigation_1.png"
+        alt="navigation_1"
+        width={50}
+        height={50}
+        className="absolute top-[7615px] left-[50%]"
+      />
+
+      {/* section 7 */}
+      <section className="relative flex flex-col items-center">
+        <div className="relative font-bold text-[59px] mt-[140px]">
+          Article and News
+        </div>
+        <p className="font-medium text-[22px] mt-5 mb-[100px]">
+          News, tips, tricks and more
+        </p>
+        <Image
+          src="/images/illustration/Star_2.png"
+          alt="pattern_4"
+          width={180}
+          height={180}
+          className="absolute top-[300px] left-[14%] rotate-[340deg]"
+        />
+        <Image
+          src="/images/pattern/pattern_4.png"
+          alt="pattern_4"
+          width={240}
+          height={240}
+          className="absolute rotate-[120deg] top-[920px] right-[11%]"
+        />
+        <Article />
+        <button className="W-[170px] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 mb-[140px] hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
+          BROWSER ALL
+        </button>
+      </section>
+      {/* section 7 end */}
+
+      <Image
+        src="/images/pattern/navigation.png"
+        alt="navigation"
+        width={50}
+        height={50}
+        className="absolute top-[8925px] left-[50%]"
+      />
+
+      {/* section 8  */}
+      <section className="flex flex-col text-center items-center bg-[#EDF3F7]">
+        <div className="font-bold text-sm text-[#CD4631] border border-[#CD4631] rounded-lg px-[6px] py-[3px] mt-[140px] mb-[23px]">
+          BETA
+        </div>
+        <div className="relative font-bold text-[59px]">
+          Available now <br /> Pod of Cast App
+        </div>
+        <p className="font-medium text-[22px] mt-5 mb-[100px]">
+          We just launched our podcast app!
+        </p>
+        <Image
+          src="/images/pattern/Sparkle_1.png"
+          alt="sparkle"
+          width={120}
+          height={120}
+          className="absolute top-[9550px] right-[41%] rotate-90"
+        />
+        <Image
+          src="/images/mockUp/phone_left.png"
+          alt="sparkle"
+          width={500}
+          height={500}
+          className="absolute top-[9332px] left-0 "
+        />
+        <Image
+          src="/images/mockUp/phone_right.png"
+          alt="sparkle"
+          width={400}
+          height={400}
+          className="absolute top-[9139px] right-0 "
+        />
+        <button className="W-[210px] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 mt-[90px] hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
+          DOWNLOAD NOW
+        </button>
+        <p className="mt-6">Content also available on:</p>
+        <div className="flex mt-[10px] mb-[140px] gap-5">
+          <Image
+            src="/images/icon/google-podcast_black.png"
+            alt="google_podcast"
+            width={24}
+            height={25}
+          />
+          <Image
+            src="/images/icon/spotify_black.png"
+            alt="spotify"
+            width={24}
+            height={25}
+          />
+          <Image
+            src="/images/icon/youtube_black.png"
+            alt="youtube"
+            width={24}
+            height={25}
+          />
+        </div>
+      </section>
+      {/* section 8 end */}
+
+      {/* footer */}
+      <section className="mt-[140px]">
+        <Footer />
+      </section>
+      {/* footer end */}
     </div>
   );
 };
