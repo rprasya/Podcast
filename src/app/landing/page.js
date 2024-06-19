@@ -19,7 +19,7 @@ const Landing = () => {
           <p className="mt-10 mb-[60px]">
             We cover all kinds of categories and <br /> a weekly special guest.
           </p>
-          <button className="font-bold text-white bg-black rounded-lg px-12 py-6 shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
+          <button className="font-bold text-white bg-black rounded-lg px-12 py-6 hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
             SUBSCRIBE
           </button>
         </div>

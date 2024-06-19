@@ -20,7 +20,7 @@ const Navbar = () => {
       </div>
       <div>
         <button className="font-bold border border-solid border-black rounded-lg px-6 py-3 mr-5">RECENT EPISODE</button>
-        <button className="font-bold text-white bg-black rounded-lg px-6 py-3 shadow-[5px_5px_0px_0px_rgba(109,40,217)]">SUBSCRIBE</button>
+        <button className="font-bold text-white bg-black rounded-lg px-6 py-3 hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]">SUBSCRIBE</button>
       </div>
     </div>
   );
