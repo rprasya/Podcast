@@ -20,7 +20,7 @@ const Landing = () => {
           <p className="mt-10 mb-[60px]">
             We cover all kinds of categories and <br /> a weekly special guest.
           </p>
-          <button className="font-bold text-white bg-black rounded-lg px-12 py-6 hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
+          <button className="font-bold text-white bg-black rounded-lg px-12 py-6 hover:shadow-[5px_5px_0px_0px_rgba(185,178,174)]">
             SUBSCRIBE
           </button>
         </div>
@@ -206,7 +206,7 @@ const Landing = () => {
           />
         </div>
         <div className="mt-10 mb-[130px]">
-          <button className="W-[170] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
+          <button className="W-[170] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 hover:shadow-[5px_5px_0px_0px_rgba(185,178,174)]">
             SEE PRICING
           </button>
         </div>
@@ -233,7 +233,7 @@ const Landing = () => {
           <Episode />
         </div>
         <div>
-          <button className="W-[253] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 mt-[100px] mb-[140px] hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
+          <button className="W-[253] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 mt-[100px] mb-[140px] hover:shadow-[5px_5px_0px_0px_rgba(185,178,174)]">
             BROWSE ALL EPISODES
           </button>
         </div>
@@ -288,7 +288,7 @@ const Landing = () => {
                 eiusmod tempor.
               </p>
               <div className="flex justify-between items-center mt-[80px]">
-                <button className="W-[160px] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
+                <button className="W-[160px] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 hover:shadow-[5px_5px_0px_0px_rgba(185,178,174)]">
                   SUBSCRIBE
                 </button>
                 <p className="font-bold text-[22px] text-[#CD4631]">
@@ -325,7 +325,7 @@ const Landing = () => {
                 eiusmod tempor.
               </p>
               <div className="flex justify-between items-center mt-[80px]">
-                <button className="W-[160px] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
+                <button className="W-[160px] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 hover:shadow-[5px_5px_0px_0px_rgba(185,178,174)]">
                   SUBSCRIBE
                 </button>
                 <p className="font-bold text-[22px] text-[#CD4631]">
@@ -358,7 +358,7 @@ const Landing = () => {
                 eiusmod tempor.
               </p>
               <div className="flex justify-between items-center mt-[80px]">
-                <button className="W-[160px] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
+                <button className="W-[160px] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 hover:shadow-[5px_5px_0px_0px_rgba(185,178,174)]">
                   SUBSCRIBE
                 </button>
                 <p className="font-bold text-[22px] text-[#CD4631]">
@@ -417,7 +417,7 @@ const Landing = () => {
           className="absolute rotate-[120deg] top-[920px] right-[11%]"
         />
         <Article />
-        <Link href="/blog" className="flex items-center W-[170px] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 mb-[140px] hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
+        <Link href="/blog" className="flex items-center W-[170px] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 mb-[140px] hover:shadow-[5px_5px_0px_0px_rgba(185,178,174)]">
           BROWSER ALL
         </Link>
       </section>
@@ -463,7 +463,7 @@ const Landing = () => {
           height={400}
           className="absolute top-[9139px] right-0 "
         />
-        <button className="W-[210px] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 mt-[90px] hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
+        <button className="W-[210px] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 mt-[90px] hover:shadow-[5px_5px_0px_0px_rgba(185,178,174)]">
           DOWNLOAD NOW
         </button>
         <p className="mt-6">Content also available on:</p>

@@ -6,7 +6,7 @@ const Slider = () => {
     <div className="ml-32">
       <div className="flex gap-5">
         {/* card 1 */}
-        <div className="w-[570px] h-[360px] bg-white px-10 text-start rounded-lg">
+        <div className="w-[570px] h-[360px] bg-white px-10 text-start rounded-lg cursor-pointer ease-in-out duration-300 hover:scale-[102%]">
           <p className="font-bold text-[#CD4631] text-8xl text-end rotate-180 mt-16 mb-[-25px]">
             ,,
           </p>
@@ -36,7 +36,7 @@ const Slider = () => {
         {/* card 1 end */}
 
         {/* card 2 */}
-        <div className="w-[570px] h-[360px] bg-white px-10 text-start rounded-lg">
+        <div className="w-[570px] h-[360px] bg-white px-10 text-start rounded-lg cursor-pointer ease-in-out duration-300 hover:scale-[102%]">
           <p className="font-bold text-[#CD4631] text-8xl text-end rotate-180 mt-16 mb-[-25px]">
             ,,
           </p>
@@ -66,7 +66,7 @@ const Slider = () => {
         {/* card 2 end */}
 
         {/* card 3 */}
-        <div className="w-[570px] h-[360px] bg-white px-10 text-start rounded-lg">
+        <div className="w-[570px] h-[360px] bg-white px-10 text-start rounded-lg cursor-pointer ease-in-out duration-300 hover:scale-[102%]">
           <p className="font-bold text-[#CD4631] text-8xl text-end rotate-180 mt-16 mb-[-25px]">
             ,,
           </p>

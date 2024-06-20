@@ -192,7 +192,7 @@ const singleBlog = () => {
           className="absolute rotate-[120deg] top-[920px] right-[11%]"
         />
         <Article />
-        <Link href="/blog" className="flex items-center W-[170px] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 mb-[140px] hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
+        <Link href="/blog" className="flex items-center W-[170px] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 mb-[140px] hover:shadow-[5px_5px_0px_0px_rgba(185,178,174)]">
           BROWSER ALL
         </Link>
       </section>
@@ -230,7 +230,7 @@ const singleBlog = () => {
           height={400}
           className="absolute top-[5067px] right-0 "
         />
-        <button className="W-[210px] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 mt-[90px] hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
+        <button className="W-[210px] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 mt-[90px] hover:shadow-[5px_5px_0px_0px_rgba(185,178,174)]">
           DOWNLOAD NOW
         </button>
         <p className="mt-6">Content also available on:</p>

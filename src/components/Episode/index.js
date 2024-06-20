@@ -4,7 +4,7 @@ const Episode = () => {
   return (
     <div className="grid grid-cols-2 gap-5">
       {/* card 1 */}
-      <div className="bg-white border-2 border-black rounded-xl p-4 mb-5 cursor-pointer hover:shadow-[10px_10px_0px_0px_rgba(109,40,217)] ease-in-out duration-300 hover:scale-[102%]">
+      <div className="bg-white border-2 border-black rounded-xl p-4 mb-5 cursor-pointer hover:shadow-[10px_10px_0px_0px_rgba(129,173,200)] ease-in-out duration-300 hover:scale-[102%]">
         <div className="flex items-center">
           <Image
             src="/images/cover/cover-5.png"
@@ -48,7 +48,7 @@ const Episode = () => {
       {/* card 1 end */}
 
       {/* card 2  */}
-      <div className="bg-white border-2 border-black rounded-xl p-4 mb-5 cursor-pointer hover:shadow-[10px_10px_0px_0px_rgba(109,40,217)] ease-in-out duration-300 hover:scale-[102%]">
+      <div className="bg-white border-2 border-black rounded-xl p-4 mb-5 cursor-pointer hover:shadow-[10px_10px_0px_0px_rgba(129,173,200)] ease-in-out duration-300 hover:scale-[102%]">
         <div className="flex items-center">
           <Image
             src="/images/cover/cover.png"
@@ -92,7 +92,7 @@ const Episode = () => {
       {/* card 2 end */}
 
       {/* card 3 */}
-      <div className="bg-white border-2 border-black rounded-xl p-4 mb-5 cursor-pointer hover:shadow-[10px_10px_0px_0px_rgba(109,40,217)] ease-in-out duration-300 hover:scale-[102%]">
+      <div className="bg-white border-2 border-black rounded-xl p-4 mb-5 cursor-pointer hover:shadow-[10px_10px_0px_0px_rgba(129,173,200)] ease-in-out duration-300 hover:scale-[102%]">
         <div className="flex items-center">
           <Image
             src="/images/cover/cover-3.png"
@@ -133,7 +133,7 @@ const Episode = () => {
       {/* card 3 end */}
 
       {/* card 4 */}
-      <div className="bg-white border-2 border-black rounded-xl p-4 mb-5 cursor-pointer hover:shadow-[10px_10px_0px_0px_rgba(109,40,217)] ease-in-out duration-300 hover:scale-[102%]">
+      <div className="bg-white border-2 border-black rounded-xl p-4 mb-5 cursor-pointer hover:shadow-[10px_10px_0px_0px_rgba(129,173,200)] ease-in-out duration-300 hover:scale-[102%]">
         <div className="flex items-center">
           <Image
             src="/images/cover/cover-1.png"
@@ -177,7 +177,7 @@ const Episode = () => {
       {/* card 4 end */}
 
       {/* card 5 */}
-      <div className="bg-white border-2 border-black rounded-xl p-4 mb-5 cursor-pointer hover:shadow-[10px_10px_0px_0px_rgba(109,40,217)] ease-in-out duration-300 hover:scale-[102%]">
+      <div className="bg-white border-2 border-black rounded-xl p-4 mb-5 cursor-pointer hover:shadow-[10px_10px_0px_0px_rgba(129,173,200)] ease-in-out duration-300 hover:scale-[102%]">
         <div className="flex items-center">
           <Image
             src="/images/cover/cover-4.png"
@@ -221,7 +221,7 @@ const Episode = () => {
       {/* card 5 end */}
 
       {/* card 6 */}
-      <div className="bg-white border-2 border-black rounded-xl p-4 mb-5 cursor-pointer hover:shadow-[10px_10px_0px_0px_rgba(109,40,217)] ease-in-out duration-300 hover:scale-[102%]">
+      <div className="bg-white border-2 border-black rounded-xl p-4 mb-5 cursor-pointer hover:shadow-[10px_10px_0px_0px_rgba(129,173,200)] ease-in-out duration-300 hover:scale-[102%]">
         <div className="flex items-center">
           <Image
             src="/images/cover/cover-2.png"

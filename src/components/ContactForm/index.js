@@ -29,7 +29,7 @@ const ContactForm = () => {
             </div>
             <div className="flex text-start">
                 <p>required</p>
-                <button className="font-bold text-[14px] text-white bg-black rounded-lg px-9 py-5 mr-[110px] ml-[220px] hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
+                <button className="font-bold text-[14px] text-white bg-black rounded-lg px-9 py-5 mr-[110px] ml-[220px] hover:shadow-[5px_5px_0px_0px_rgba(185,178,174)]">
                     SEND MESSAGE
                 </button>
                 <p>Viverra at port <br /> accumsan. <span className="text-[#CD4631] hover:underline hover:cursor-pointer">Orci non</span></p>

@@ -18,10 +18,10 @@ const About = () => {
           minim veniam–quis.
         </p>
         <div className="flex">
-          <button className="font-bold text-black bg-transparent rounded-lg border-2 border-black px-12 py-6 hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)] mr-[20px]">
+          <button className="font-bold text-black bg-transparent rounded-lg border-2 border-black px-12 py-6 hover:shadow-[5px_5px_0px_0px_rgba(185,178,174)] mr-[20px]">
             BECOME SPONSOR
           </button>
-          <button className="font-bold text-white bg-black rounded-lg px-12 py-6 hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
+          <button className="font-bold text-white bg-black rounded-lg px-12 py-6 hover:shadow-[5px_5px_0px_0px_rgba(185,178,174)]">
             SUBSCRIBE
           </button>
         </div>
@@ -263,7 +263,7 @@ const About = () => {
         <div className="ml-32">
           <div className="flex gap-5">
             {/* card 1 */}
-            <div className="w-[570px] h-[245px] flex flex-col justify-center items-center border border-black bg-white px-[17px] text-start rounded-lg">
+            <div className="w-[570px] h-[245px] flex flex-col justify-center items-center border border-black bg-white px-[17px] text-start rounded-lg cursor-pointer ease-in-out duration-300 hover:scale-[102%]">
               <Link href="" className="border-b border-gray-300">
                 <Image
                   src="/images/icon/GPodcast_largeIcon.png"
@@ -283,7 +283,7 @@ const About = () => {
             {/* card 1 end */}
 
             {/* card 2 */}
-            <div className="w-[570px] h-[245px] flex flex-col justify-center items-center border border-black bg-white px-[17px] text-start rounded-lg">
+            <div className="w-[570px] h-[245px] flex flex-col justify-center items-center border border-black bg-white px-[17px] text-start rounded-lg cursor-pointer ease-in-out duration-300 hover:scale-[102%]">
               <Link href="" className="border-b border-gray-300">
                 <Image
                   src="/images/icon/Spotify_largeIcon.png"
@@ -303,7 +303,7 @@ const About = () => {
             {/* card 2 end */}
 
             {/* card 3 */}
-            <div className="w-[570px] h-[245px] flex flex-col justify-center items-center border border-black bg-white px-[17px] text-start rounded-lg">
+            <div className="w-[570px] h-[245px] flex flex-col justify-center items-center border border-black bg-white px-[17px] text-start rounded-lg cursor-pointer ease-in-out duration-300 hover:scale-[102%]">
               <Link href="" className="border-b border-gray-300">
                 <Image
                   src="/images/icon/Youtube_largeIcon.png"
@@ -403,7 +403,7 @@ const About = () => {
           height={400}
           className="absolute top-[5303px] right-0 "
         />
-        <button className="W-[210px] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 mt-[90px] hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
+        <button className="W-[210px] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 mt-[90px] hover:shadow-[5px_5px_0px_0px_rgba(185,178,174)]">
           DOWNLOAD NOW
         </button>
         <p className="mt-6">Content also available on:</p>
