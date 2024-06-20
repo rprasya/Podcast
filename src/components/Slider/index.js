@@ -98,8 +98,8 @@ const Slider = () => {
 
       {/* icon slides */}
       <div className="flex mt-[60px] gap-5 mb-[100px]">
-        <IoIosArrowDropleft className="text-5xl cursor-pointer" />
-        <IoIosArrowDropright className="text-5xl text-[#CD4631] cursor-pointer" />
+        <IoIosArrowDropleft className="text-5xl hover:text-[#CD4631] cursor-pointer" />
+        <IoIosArrowDropright className="text-5xl hover:text-[#CD4631] cursor-pointer" />
       </div>
       {/* icon */}
     </div>
