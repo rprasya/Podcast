@@ -417,7 +417,7 @@ const Landing = () => {
           className="absolute rotate-[120deg] top-[920px] right-[11%]"
         />
         <Article />
-        <Link href="/blog" className="W-[170px] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 mb-[140px] hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
+        <Link href="/blog" className="flex items-center W-[170px] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 mb-[140px] hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
           BROWSER ALL
         </Link>
       </section>

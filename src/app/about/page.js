@@ -19,7 +19,7 @@ const About = () => {
         </p>
         <div className="flex">
           <button className="font-bold text-black bg-transparent rounded-lg border-2 border-black px-12 py-6 hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)] mr-[20px]">
-            SUBSCRIBE
+            BECOME SPONSOR
           </button>
           <button className="font-bold text-white bg-black rounded-lg px-12 py-6 hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
             SUBSCRIBE
@@ -47,20 +47,32 @@ const About = () => {
 
       <div className="absolute flex top-[750px] left-[350px]">
         <div className="border-2 border-black text-center bg-white px-[94px] py-[59px] mr-5 rounded-lg cursor-pointer hover:shadow-[5px_5px_0px_0px_rgba(205,70,49)] ease-in-out duration-300 hover:scale-[102%]">
-            <div className="font-bold text-[59px]"><span className="text-[#CD4631] mb-5">76</span>K</div>
-            <p className="text-[#4D4D4D]">Community Members</p>
+          <div className="font-bold text-[59px]">
+            <span className="text-[#CD4631] mb-5">76</span>K
+          </div>
+          <p className="text-[#4D4D4D]">Community Members</p>
         </div>
         <div className="w-[373px] border-2 border-black text-center bg-white px-[94px] py-[59px] mr-5 rounded-lg cursor-pointer hover:shadow-[5px_5px_0px_0px_rgba(205,70,49)] ease-in-out duration-300 hover:scale-[102%]">
-            <div className="font-bold text-[59px]"><span className="text-[#CD4631] mb-5">128</span>K</div>
-            <p className="text-[#4D4D4D]">Podcast Subscribers</p>
+          <div className="font-bold text-[59px]">
+            <span className="text-[#CD4631] mb-5">128</span>K
+          </div>
+          <p className="text-[#4D4D4D]">Podcast Subscribers</p>
         </div>
         <div className="w-[373px] border-2 border-black text-center bg-white px-[94px] py-[59px] mr-5 rounded-lg cursor-pointer hover:shadow-[5px_5px_0px_0px_rgba(205,70,49)] ease-in-out duration-300 hover:scale-[102%]">
-            <div className="font-bold text-[59px]"><span className="text-[#CD4631] mb-5">59</span>K</div>
-            <p className="text-[#4D4D4D]">Daily Listeners</p>
+          <div className="font-bold text-[59px]">
+            <span className="text-[#CD4631] mb-5">59</span>K
+          </div>
+          <p className="text-[#4D4D4D]">Daily Listeners</p>
         </div>
       </div>
 
-      <Image src="/images/pattern/pattern_3.png" alt="pattern-3" width={120} height={120} className="absolute top-[799px] right-0"/>
+      <Image
+        src="/images/pattern/pattern_3.png"
+        alt="pattern-3"
+        width={120}
+        height={120}
+        className="absolute top-[799px] right-0"
+      />
 
       {/* section 2 */}
       <div className="relative flex flex-col justify-center items-center">
@@ -76,7 +88,13 @@ const About = () => {
           width={1160}
           height={640}
         />
-        <Image src="/images/pattern/Sparkle_1.png" alt="Sparkle" width={120} height={120} className="absolute top-[990px] left-[700px]"/>
+        <Image
+          src="/images/pattern/Sparkle_1.png"
+          alt="Sparkle"
+          width={120}
+          height={120}
+          className="absolute top-[990px] left-[700px]"
+        />
         <div className="font-bold text-[36px] mt-[60px]">About and History</div>
         <div className="flex justify-center gap-10 mt-[80px] border-b border-gray-300">
           <div className="text-[16px] mb-[81px]">
@@ -112,8 +130,14 @@ const About = () => {
             </span>
           </div>
         </div>
-        
-        <Image src="/images/pattern/pattern_4_blue.png" alt="sparkle" width={120} height={120} className="absolute top-[1470px] right-[35%]"/>
+
+        <Image
+          src="/images/pattern/pattern_4_blue.png"
+          alt="sparkle"
+          width={120}
+          height={120}
+          className="absolute top-[1470px] right-[35%]"
+        />
 
         <div className="font-bold text-[36px] mt-[100px]">
           Founder and Main Host
@@ -121,7 +145,13 @@ const About = () => {
         <div className="flex mt-[80px] mb-[140px] gap-5">
           {/* box 1 */}
           <div className=" relative flex items-end border-2 border-black rounded-lg p-4 hover:cursor-pointer hover:shadow-[10px_10px_0px_0px_rgba(0,0,1)] ease-in-out duration-300 hover:scale-[102%]">
-            <Image src="/images/illustration/Face-1.png" alt="smile" width={130} height={130} className="absolute top-5 right-1 rotate-12"/>
+            <Image
+              src="/images/illustration/Face-1.png"
+              alt="smile"
+              width={130}
+              height={130}
+              className="absolute top-5 right-1 rotate-12"
+            />
             <Image
               src="/images/avatar/avatar_host_1.png"
               alt="host_1"
@@ -169,7 +199,13 @@ const About = () => {
 
           {/* box 2 */}
           <div className="relative flex items-end border-2 border-black rounded-lg p-4 hover:cursor-pointer hover:shadow-[10px_10px_0px_0px_rgba(0,0,1)] ease-in-out duration-300 hover:scale-[102%]">
-            <Image src="/images/illustration/Star.png" alt="smile" width={120} height={120} className="absolute top-5 right-1 rotate-12"/>
+            <Image
+              src="/images/illustration/Star.png"
+              alt="smile"
+              width={120}
+              height={120}
+              className="absolute top-5 right-1 rotate-12"
+            />
             <Image
               src="/images/avatar/avatar_host_2.png"
               alt="host_2"
@@ -302,9 +338,27 @@ const About = () => {
         <p className="font-medium text-[22px] mt-5 mb-[100px]">
           Send your message to us
         </p>
-        <Image src="/images/illustration/Scribble.png" alt="scribble" width={67} height={23} className="absolute top-[105px] right-[39%] rotate-12"/>
-        <Image src="/images/illustration/Shining_stars.png" alt="scribble" width={78} height={78} className="absolute top-[385px] right-[13%]"/>
-        <Image src="/images/pattern/pattern_3.png" alt="scribble" width={120} height={120} className="absolute top-[800px] left-5"/>
+        <Image
+          src="/images/illustration/Scribble.png"
+          alt="scribble"
+          width={67}
+          height={23}
+          className="absolute top-[105px] right-[39%] rotate-12"
+        />
+        <Image
+          src="/images/illustration/Shining_stars.png"
+          alt="scribble"
+          width={78}
+          height={78}
+          className="absolute top-[385px] right-[13%]"
+        />
+        <Image
+          src="/images/pattern/pattern_3.png"
+          alt="scribble"
+          width={120}
+          height={120}
+          className="absolute top-[800px] left-5"
+        />
         <ContactForm />
       </section>
       {/* section 4 end */}
@@ -317,7 +371,7 @@ const About = () => {
         className="absolute top-[5090px] left-[50%]"
       />
 
-      {/* section 5 */}
+      {/* section download app */}
       <section className="flex flex-col text-center items-center bg-[#EDF3F7]">
         <div className="font-bold text-sm text-[#CD4631] border border-[#CD4631] rounded-lg px-[6px] py-[3px] mt-[140px] mb-[23px]">
           BETA
@@ -374,7 +428,7 @@ const About = () => {
           />
         </div>
       </section>
-      {/* section 5 end */}
+      {/* section download app end */}
 
       {/* footer */}
       <section className="mt-[140px]">

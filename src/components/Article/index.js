@@ -5,7 +5,7 @@ const Article = () => {
   return (
     <div className="flex mb-[100px]">
       {/* article 1 */}
-      <Link href="/singleBlog" className="flex flex-col items-center border-2 border-black rounded-lg p-4 mr-7 hover:cursor-pointer hover:shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] ease-in-out duration-300 hover:scale-[102%]">
+      <Link href="/singleBlog" className="flex flex-col items-center bg-white border-2 border-black rounded-lg p-4 mr-7 hover:cursor-pointer hover:shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] ease-in-out duration-300 hover:scale-[102%]">
         <Image
           src="/images/cover/Setup_Podcast.png"
           alt="setup_podcast"
@@ -39,7 +39,7 @@ const Article = () => {
       {/* article 1 end */}
 
       {/* article 2 */}
-      <Link href="/singleBlog" className="flex flex-col items-center border-2 border-black rounded-lg p-4 hover:cursor-pointer hover:shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] ease-in-out duration-300 hover:scale-[102%]">
+      <Link href="/singleBlog" className="flex flex-col items-center bg-white border-2 border-black rounded-lg p-4 hover:cursor-pointer hover:shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] ease-in-out duration-300 hover:scale-[102%]">
         <Image
           src="/images/cover/Doodle_Artwork.png"
           alt="setup_podcast"
