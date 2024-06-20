@@ -1,7 +1,7 @@
 const ContactForm = () => {
     return (
-        <form action="" className="mb-[140px]">
-            <div className="flex gap-5 mb-[40px]">
+        <form action="" className="border-t border-gray-300 mb-[140px]">
+            <div className="flex gap-5 mb-[40px] mt-[40px]">
                 <div className="flex flex-col justify-center items-start">
                     <label className="font-bold mb-4">Full name</label>
                     <input type="text" placeholder="Fullname" className="w-[373px] h-[50px] border border-black rounded-lg px-5 py-[19px]" />

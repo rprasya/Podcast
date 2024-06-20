@@ -297,14 +297,25 @@ const About = () => {
       {/* section 3 end */}
 
       {/* section 4 */}
-      <section className="flex flex-col items-center text-center">
+      <section className="relative flex flex-col items-center text-center">
         <div className="font-bold text-[59px] mt-[140px] ">Get in touch</div>
         <p className="font-medium text-[22px] mt-5 mb-[100px]">
           Send your message to us
         </p>
+        <Image src="/images/illustration/Scribble.png" alt="scribble" width={67} height={23} className="absolute top-[105px] right-[39%] rotate-12"/>
+        <Image src="/images/illustration/Shining_stars.png" alt="scribble" width={78} height={78} className="absolute top-[385px] right-[13%]"/>
+        <Image src="/images/pattern/pattern_3.png" alt="scribble" width={120} height={120} className="absolute top-[800px] left-5"/>
         <ContactForm />
       </section>
       {/* section 4 end */}
+
+      <Image
+        src="/images/pattern/navigation.png"
+        alt="navigation"
+        width={50}
+        height={50}
+        className="absolute top-[5090px] left-[50%]"
+      />
 
       {/* section 5 */}
       <section className="flex flex-col text-center items-center bg-[#EDF3F7]">
@@ -322,21 +333,21 @@ const About = () => {
           alt="sparkle"
           width={120}
           height={120}
-          className="absolute top-[5665px] right-[41%] rotate-90"
+          className="absolute top-[5710px] right-[41%] rotate-90"
         />
         <Image
           src="/images/mockUp/phone_left.png"
           alt="sparkle"
           width={500}
           height={500}
-          className="absolute top-[5455px] left-0 "
+          className="absolute top-[5495px] left-0 "
         />
         <Image
           src="/images/mockUp/phone_right.png"
           alt="sparkle"
           width={400}
           height={400}
-          className="absolute top-[5263px] right-0 "
+          className="absolute top-[5303px] right-0 "
         />
         <button className="W-[210px] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 mt-[90px] hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
           DOWNLOAD NOW

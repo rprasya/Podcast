@@ -6,6 +6,7 @@ import ScrollBar from "@/components/ScrollBar";
 import Slider from "@/components/Slider";
 import Supported from "@/components/Supported";
 import Image from "next/image";
+import Link from "next/link";
 
 const Landing = () => {
   return (
@@ -416,9 +417,9 @@ const Landing = () => {
           className="absolute rotate-[120deg] top-[920px] right-[11%]"
         />
         <Article />
-        <button className="W-[170px] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 mb-[140px] hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
+        <Link href="/blog" className="W-[170px] h-[62px] font-bold text-white bg-black rounded-lg px-6 py-3 mb-[140px] hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
           BROWSER ALL
-        </button>
+        </Link>
       </section>
       {/* section 7 end */}
 
@@ -430,7 +431,7 @@ const Landing = () => {
         className="absolute top-[8925px] left-[50%]"
       />
 
-      {/* section 8  */}
+      {/* section download app  */}
       <section className="flex flex-col text-center items-center bg-[#EDF3F7]">
         <div className="font-bold text-sm text-[#CD4631] border border-[#CD4631] rounded-lg px-[6px] py-[3px] mt-[140px] mb-[23px]">
           BETA
@@ -487,7 +488,7 @@ const Landing = () => {
           />
         </div>
       </section>
-      {/* section 8 end */}
+      {/* section download app end */}
 
       {/* footer */}
       <section className="mt-[140px]">

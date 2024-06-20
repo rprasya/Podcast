@@ -1,10 +1,11 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Article = () => {
   return (
     <div className="flex mb-[100px]">
       {/* article 1 */}
-      <div className="flex flex-col items-center border-2 border-black rounded-lg p-4 mr-7 hover:cursor-pointer hover:shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] ease-in-out duration-300 hover:scale-[102%]">
+      <Link href="/singleBlog" className="flex flex-col items-center border-2 border-black rounded-lg p-4 mr-7 hover:cursor-pointer hover:shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] ease-in-out duration-300 hover:scale-[102%]">
         <Image
           src="/images/cover/Setup_Podcast.png"
           alt="setup_podcast"
@@ -34,11 +35,11 @@ const Article = () => {
             <p className="font-bold text-[#4D4D4D] mt-5">Sep 14, 2021</p>
           </div>
         </div>
-      </div>
+      </Link>
       {/* article 1 end */}
 
       {/* article 2 */}
-      <div className="flex flex-col items-center border-2 border-black rounded-lg p-4 hover:cursor-pointer hover:shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] ease-in-out duration-300 hover:scale-[102%]">
+      <Link href="/singleBlog" className="flex flex-col items-center border-2 border-black rounded-lg p-4 hover:cursor-pointer hover:shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] ease-in-out duration-300 hover:scale-[102%]">
         <Image
           src="/images/cover/Doodle_Artwork.png"
           alt="setup_podcast"
@@ -46,9 +47,9 @@ const Article = () => {
           height={320}
         />
         <div className="flex flex-col">
-          <p className="font-bold mt-10">PODCAST</p>
+          <p className="font-bold mt-10">TIPS & TRICK</p>
           <div className="font-bold text-4xl text-[#CD4631] mt-[6px]">
-            Setup your own podcast
+          Doodle Artwork 101
           </div>
           <p className="text-[14px] mt-5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -71,7 +72,7 @@ const Article = () => {
             <p className="font-bold text-[#4D4D4D] mt-5">Sep 12, 2021</p>
           </div>
         </div>
-      </div>
+      </Link>
       {/* article 2 end */}
     </div>
   );
