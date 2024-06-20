@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="flex justify-around items-center bg-[#F7EDE8] px-[140px] pt-[24px]">
       <Link href="/">
         <Image
-          src="/images/logo.png"
+          src="/images/icon/logo.png"
           alt="Vercel Logo"
           className=""
           width={74}
